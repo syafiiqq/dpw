@@ -1,0 +1,285 @@
+.bg-body-tertiary {
+    background-color: #001933 !important;
+}
+
+.bg-primary {
+    background-color: #003366 !important;
+}
+
+.bg-secondary {
+    background-color: #1a4b8c !important;
+}
+
+.bg-gray {
+    background-color: #cccccc;
+}
+
+.nav-link {
+color: white !important; /* Mengatur warna teks menjadi biru tua */
+margin: 5px 0; /* Memberikan sedikit ruang antara setiap tautan */
+}
+
+.content {
+text-align: center;
+}
+
+.navbar-brand {
+padding-left: 25px;
+color: white; /* Mengatur warna teks menjadi putih */
+font-weight: bold; /* Mengatur tebal pada font */
+font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+}
+
+.navbar-brand img {
+margin-left: 10px; /* Atur jarak antara logo dan teks */
+margin-right: 10px; /* Atur jarak antara logo dan teks */
+}
+
+.container {
+margin-top: 50px;
+position: relative;
+}
+
+.container:before,
+.container:after {
+content: "";
+position: absolute;
+top: 3%;
+width: 105%; /* Mengubah lebar menjadi 100% */
+border-top: 1px solid black;
+}
+
+.container:before {
+left: 0;
+}
+
+.container:after {
+right: 0;
+}
+
+.text-center {
+text-align: center;
+}
+
+.text-center h3 {
+display: inline-block;
+padding: 0 20px;
+background-color: white;
+position: relative;
+z-index: 1;
+}
+
+.text-center {
+color: black; /* Mengatur warna teks menjadi putih */
+font-weight: bold; /* Mengatur tebal pada font */
+font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+}
+
+.card {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 100%;
+    margin: 25px;
+
+}
+
+.card-img-container {
+    height: 200px; /* Menetapkan tinggi gambar */
+    overflow: hidden; /* Memastikan gambar tidak melebihi kotak */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+.card-body {
+    height: calc(100% - 200px); /* Menghitung tinggi sisa untuk konten */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.card-dody {
+    height: calc(100% - 200px); /* Menghitung tinggi sisa untuk konten */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+font-family: 'Poppins', sans-serif; /* Mengatur font judul */
+    margin-bottom: -20px;
+}
+
+.card-text {
+    padding-top: -50px;
+    padding-bottom: 20px;
+
+}
+.card-text small {
+font-weight: bold; /* Membuat teks tanggal menjadi tebal */
+}
+
+.navigation-buttons {
+    margin-top: 70px;
+    text-align: center;
+}
+
+@keyframes slideOutLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+@keyframes slideInRight {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(0); }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.page {
+    width: 20px;
+    height: 20px;
+    background-color: #c2cbc8;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #00316d
+    ;
+}
+
+.previous-button {
+    margin-top: 40px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.previous-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.custom-box .col-md-2 {
+    flex: 1 0 25%; /* Mengatur lebar kotak abu-abu menjadi 25% lebih besar */   
+}
+
+.blue-box {
+    min-width: 90px; /* Mengatur lebar minimum kotak biru */
+    height: 90px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+    background-color: #1a4b8c; /* Warna biru sesuaikan dengan yang Anda inginkan */
+    color: white; /* Warna teks hitam */
+}
+
+.blue-box p {
+    margin: 0;
+    text-align: center;
+}
+
+.announcement-text {
+    font-family: 'Poppins', sans-serif; /* Gunakan font Poppins */
+    color: #000000; /* Warna teks hitam */
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.announcement-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.announcement-text {
+    margin-left: 25px;
+    margin-bottom: 10px; /* Menambahkan ruang antara setiap teks pengumuman */
+}
+
+
+
+.program-title {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+  }
+  
+  .program-description {
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .divider {
+    border-top: 1px solid white;
+    border-bottom: none;
+  }
+  
+  .program-icon {
+    max-width: 60px;
+    margin-top: 20px;
+  }
+  
+
+  .blue-bar {
+    margin-top: -25px;
+    min-width: 70px; /* Mengatur lebar minimum kotak biru */
+    height: 240px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+    background-color: #1a4b8c; /* Warna biru sesuaikan dengan yang Anda inginkan */
+  }
+
+  .square-img {
+    width: 200px; /* Ukuran gambar persegi panjang */
+    height: 120px; /* Ukuran gambar persegi panjang */
+    background-color: gray;
+    margin:50px; /* Jarak antara gambar */
+  }
+
+
+  .footer-content {
+    
+    display: flex;
+  justify-content: flex-end; /* Untuk menempatkan konten di sebelah kanan */
+  align-items: center; /* Untuk mengatur konten agar berada di tengah vertikal */
+  height: 100%; /* Untuk mengatur tinggi agar konten berada di tengah vertikal */
+
+}
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Mengatur agar logo dan teks berdampingan */
+    order: 1; /* Menempatkan logo di bagian kiri */
+  }
+  
+  .address {
+    order: 2; /* Menempatkan alamat di bagian kanan */
+  }
+  
+  /* Atur margin atau padding sesuai kebutuhan */
+  .logo,
+  .address {
+    margin-left: 150px;
+    margin-right: 300px;
+  }
+
+  .copyright {
+    margin-right: 20px;
+    bottom: 10px; /* Menempatkan teks di bagian bawah */
+    right: 10px; /* Menempatkan teks di pojok kanan */
+  }
